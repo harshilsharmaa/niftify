@@ -14,6 +14,8 @@
     border: 1px solid #FFF;
     border-radius: 20px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -91,11 +93,14 @@
     line-height: normal !important;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 700px) {
+    .search{
+        margin-top: 15px;
+    }
     .search input {
-        padding: 5px;
-        width: 327px;
-        height: 37.586px;
+        padding: 7px;
+        width: 307px;
+        /* height: 37.586px; */
         font-size: 18px;
     }
 
@@ -111,17 +116,21 @@
     }
 
     .ju367v2b {
-        width: 100px !important;
+        width: 160px !important;
         height: 27.667px !important;
     }
 
     .connect-btn {
-        width: 170px;
+        width: 160px;
         height: 27.667px;
     }
 
     .menu-btn{
         display: block;
+    }
+
+    .cardsContainer{
+        height: 660px;
     }
 
 }

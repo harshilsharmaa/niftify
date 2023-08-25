@@ -75,8 +75,27 @@ height: 29.333px;
     margin: 10px;
 }
 
-@media(max-width: 500px){
+.close{
+    display: none;
+    color:#ccc;
+    position: absolute;
+    right: 15px;
+    top:13px;
+    font-size: 16px;
+}
+
+@media(max-width: 700px){
     .sidebar{
+        position: absolute;
+        z-index: 1000;
+    }
+
+    .hide{
         display: none;
     }
+    .close{
+        display: block;
+    }
+    
+    
 }

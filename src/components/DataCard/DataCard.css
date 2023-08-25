@@ -63,3 +63,9 @@
     align-items: center;
     justify-content: center;
 }
+
+@media(max-width: 700px){
+    .dataCard{
+        width: 90%;
+    }
+}

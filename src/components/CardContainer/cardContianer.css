@@ -2,8 +2,10 @@
     display: flex;
 }
 
-@media(max-width: 500px){
+@media(max-width: 700px){
     .cardContianer{
         flex-direction: column;
+        /* width: 98vw; */
+        align-items: center;
     }
 }

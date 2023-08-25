@@ -2,13 +2,11 @@ import './sidebar.css'
 import { logo, tokenLogo, pairLogo, facebookIcon, linkedinIcon, twitterIcon } from '../../utilities/icons';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { toogleNavId } from '../../utilities/slices/appSlice';
+import { toogleNavId, toogleSidebar } from '../../utilities/slices/appSlice';
 
 const Sidebar = ()=>{
 
-    const {navId} = useSelector((state)=>state.app);
-
-    console.log(navId);
+    const {navId, isOpenSidebar} = useSelector((state)=>state.app);
 
     const dispatch = useDispatch();
 
@@ -19,8 +17,10 @@ const Sidebar = ()=>{
     }
 
     return (
-        <div className="sidebar">
+        <div className={`sidebar ${!isOpenSidebar?"hide":null}`}>
             <div>
+
+            <span onClick={()=>dispatch(toogleSidebar())} className='close'>X</span>
             
             <div className="head">
                 <div className="logo">{logo}</div>
