@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const appSlice = createSlice({
     name: "app",
     initialState: {
-        navId: 2,
+        navId: 1,
         isOpenSidebar : false
     },
     reducers:{

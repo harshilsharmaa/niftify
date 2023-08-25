@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:wght@100;400;500;600&family=Pacifico&display=swap');
 
 .sidebar{
-    height: 100vh;
+    min-height: 100%;
     width: 288px;
     background-color: #292929;
     border-top-right-radius: 32px;
@@ -86,7 +86,7 @@ height: 29.333px;
 
 @media(max-width: 700px){
     .sidebar{
-        position: absolute;
+        position: fixed;
         z-index: 1000;
     }
 

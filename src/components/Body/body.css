@@ -1,7 +1,7 @@
 .body{
     display: flex;
     max-width:100%;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url('../../utilities/Images/background.png') ;
     background-position: center;
     background-repeat: no-repeat;
