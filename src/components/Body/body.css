@@ -1,0 +1,8 @@
+.body{
+    display: flex;
+    max-width:100%;
+    background-image: url('../../utilities/Images/background.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

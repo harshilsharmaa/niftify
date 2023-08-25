@@ -1,0 +1,72 @@
+.mainContainer {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 27px;
+}
+
+.search {
+    background: linear-gradient(132deg, rgba(124, 15, 53, 0.20) 0%, rgba(88, 18, 102, 0.20) 100%);
+    border: 1px solid #FFF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    padding: 10px;
+    outline: none;
+    width: 410px;
+    height: 50px;
+    border: none;
+    background: none;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.search-btn {
+    background: none;
+    border: none;
+    outline: none;
+    padding-right: 16px;
+}
+
+.connect-btn {
+    border-radius: 20px;
+    background: linear-gradient(131deg, #7C0F35 0%, #581266 100%);
+    width: 156px;
+    height: 52px;
+    border: none;
+    outline: none;
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.content{
+    padding: 10px 10px;
+}
+
+.content h4 {
+    color: #F7F9F9;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.cardsContainer{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 500px;
+}

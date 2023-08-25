@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:wght@100;400;500;600&family=Pacifico&family=Poppins:wght@500;600&display=swap');
+
+.dataCard {
+    width: 249px;
+    height: 188px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #390554;
+    margin: 10px;
+    position: relative;
+}
+
+.card-heading {
+    padding: 10px 20px;
+    padding-bottom: 5px;
+}
+
+.card-heading h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.value {
+    width: 100%;
+    margin: 5px 0;
+    display: flex;
+    color: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 40%;
+}
+
+.info {
+    width: 56px;
+    height: 56px;
+    background: #960252;
+    border-radius: 100%;
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
