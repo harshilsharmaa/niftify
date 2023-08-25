@@ -35,6 +35,10 @@
     padding-right: 16px;
 }
 
+.menu-btn{
+    display: none;
+}
+
 .connect-btn {
     border-radius: 20px;
     background: linear-gradient(131deg, #7C0F35 0%, #581266 100%);
@@ -51,7 +55,7 @@
     line-height: normal;
 }
 
-.content{
+.content {
     padding: 10px 10px;
 }
 
@@ -64,9 +68,60 @@
     line-height: 28px;
 }
 
-.cardsContainer{
+.cardsContainer {
     display: flex;
     flex-direction: column;
     overflow-y: auto;
     height: 500px;
+}
+
+.ju367v2b {
+    border-radius: 20px !important;
+    background: linear-gradient(131deg, #7C0F35 0%, #581266 100%) !important;
+    width: 156px !important;
+    height: 52px !important;
+    border: none !important;
+    outline: none !important;
+
+    color: #FFF !important;
+    font-family: Poppins !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: normal !important;
+}
+
+@media(max-width: 500px) {
+    .search input {
+        padding: 5px;
+        width: 327px;
+        height: 37.586px;
+        font-size: 18px;
+    }
+
+    .header{
+        flex-direction: column-reverse;
+    }
+
+    .header-p2{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .ju367v2b {
+        width: 100px !important;
+        height: 27.667px !important;
+    }
+
+    .connect-btn {
+        width: 170px;
+        height: 27.667px;
+    }
+
+    .menu-btn{
+        display: block;
+    }
+
 }

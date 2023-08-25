@@ -74,3 +74,9 @@ height: 29.333px;
 .social-media span{
     margin: 10px;
 }
+
+@media(max-width: 500px){
+    .sidebar{
+        display: none;
+    }
+}

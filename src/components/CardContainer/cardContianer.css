@@ -1,3 +1,9 @@
 .cardContianer{
     display: flex;
 }
+
+@media(max-width: 500px){
+    .cardContianer{
+        flex-direction: column;
+    }
+}
